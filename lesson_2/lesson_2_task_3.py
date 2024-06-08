@@ -14,4 +14,14 @@ def square(side_length):
 a = square(5) 
 
 print("Площадь:", a) 
+
+  
+import math
+
+try:
+    square = input('Введите число: ')
+    x = float(square)
+    print(f'Площадь квадрата = {x * x}')
+except ValueError:
+    print("Введено некорректное значение. Пожалуйста, введите число.")  
     
