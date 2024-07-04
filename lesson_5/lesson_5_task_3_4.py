@@ -18,7 +18,7 @@ try:
     chrome.get("https://the-internet.herokuapp.com/entry_ad")
     firefox.get("https://the-internet.herokuapp.com/entry_ad")
     #Ждём пока модальное окно не появится и кнопка CIOSE станет кликабельной
-    wait = WebDriverWait(chrome,firefox,10)
+    wait = WebDriverWait(chrome,10)
    
     # modal_window = wait.until(
     #     EC.visibility_of_element_located((By.CSS_SELECTOR, ".modal")))
